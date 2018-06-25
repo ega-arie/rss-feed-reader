@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="0dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/border_line">
+
+    <ImageView
+        android:id="@+id/image_thumbnail"
+    android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/label_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/image_thumbnail"
+        android:layout_toRightOf="@id/image_thumbnail"
+        android:maxLines="2"
+        android:text="This is a good post, I hope it will have 2 lines. Please give me 2 lines"
+        android:textIsSelectable="false"
+        android:textSize="14sp"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/label_published_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/image_thumbnail"
+        android:layout_toRightOf="@id/image_thumbnail"
+        android:maxLines="1"
+        android:text="22 Jun 2018, 15:45"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
