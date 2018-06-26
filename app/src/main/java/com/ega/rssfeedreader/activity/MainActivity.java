@@ -231,6 +231,8 @@ public class MainActivity extends AppCompatActivity {
 
         rssSources.put(10, new RssSource("detik.com", "http://rss.detik.com/index.php/detikcom"));
         rssSources.put(20, new RssSource("okezone.com", "https://sindikasi.okezone.com/index.php/rss/0/RSS2.0"));
+        rssSources.put(30, new RssSource("antaranews.com", "https://www.antaranews.com/rss/news.xml"));
+        rssSources.put(40, new RssSource("republika.co.id", "https://www.republika.co.id/rss"));
     }
 
 
